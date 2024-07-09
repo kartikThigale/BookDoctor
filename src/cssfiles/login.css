@@ -1,0 +1,9 @@
+
+@media screen and (orientation:landscape) {
+    .justify-content-center{
+       margin-left:400px;
+        width: 50%;
+        
+    }
+   
+}

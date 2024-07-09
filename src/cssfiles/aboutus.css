@@ -1,0 +1,51 @@
+    @media screen and (orientation:landscape) {
+        .about-home-img{
+            background-image: url(../../public/introduction-doctor.jpg);
+            width: 450px;
+            height: 450px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-top: 100px;
+        }
+        .about-biography-img{
+            background-image: url(../../public/doctor-introduction-2.jpg);
+            width: 450px;
+            height: 450px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-top: 100px;
+        }
+    
+    
+    }
+
+
+
+
+@media screen and (max-width:760px) {
+    .about-home-img{
+        background-image: url(../../public/introduction-doctor.jpg);
+        width: 350px;
+        height: 350px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 100px;
+    }
+    .about-biography-img{
+        background-image: url(../../public/doctor-introduction-2.jpg);
+        width: 350px;
+        height: 350px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 100px;
+    }
+
+}
+
+
+
+
+
+
+
+

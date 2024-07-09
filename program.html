@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container-fluid">
+    <div class="carousel  slide" id="banners" data-bs-ride="carousel" data-bs-theme="dark">
+       <div class="carousel-inner">
+            <div class="carousel-item active ">
+                <img src="public/department-3.jpg" height="250" class="w-25">
+            </div>
+            <div class="carousel-item">
+                <img src="public/department-2.jpg"  height="250" class="w-25">
+            </div>
+            <div class="carousel-item">
+                <img src="../public/department-1.jpg"  height="250" class="w-25">
+            </div>
+       </div>
+       <button class="carousel-control-prev" data-bs-target="#banners" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+       </button>
+       <button class="carousel-control-next" data-bs-target="#banners" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+       </button>
+    </div>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
