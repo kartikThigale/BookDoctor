@@ -46,7 +46,7 @@ export function Login(){
                 </dl>
                 <button type="submit" className="btn btn-success w-100" >Login</button>
                 
-                <div><Link to='/register'>New user register </Link></div>
+                <div><Link to='/register'>New user Register </Link></div>
             </form>
             </div>
         </div>
